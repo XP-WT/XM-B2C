@@ -26,7 +26,26 @@
 /* 文章场景相关 */
 page {
   position: relative;
-  background-color: #fff;
+  background-color: #f7f7f7;
+}
+.hb {
+  background-color: #fef9f5;
+  color: #f0131c;
+  font-size: 30rpx;
+  width: calc(92%);
+  height: calc(20vw 40rpx);
+  margin: 0 auto;
+  border-radius: 20rpx;
+  padding: 25rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.hb .left {
+    margin-left: 10rpx;
 }
 .checkbox-box {
   display: -webkit-box;

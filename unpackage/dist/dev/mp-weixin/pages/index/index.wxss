@@ -191,7 +191,7 @@ page {
 }
 .swiper .swiper-box {
     width: 92%;
-    height: 30.7vw;
+    height: 40vw;
     overflow: hidden;
     border-radius: 15rpx;
     box-shadow: 0rpx 8rpx 25rpx rgba(0, 0, 0, 0.2);
@@ -200,11 +200,11 @@ page {
 }
 .swiper .swiper-box swiper {
       width: 100%;
-      height: 30.7vw;
+      height: 40vw;
 }
 .swiper .swiper-box swiper swiper-item image {
         width: 100%;
-        height: 30.7vw;
+        height: 40vw;
 }
 .swiper .swiper-box .indicator {
       position: absolute;
@@ -227,6 +227,35 @@ page {
 }
 .swiper .swiper-box .indicator .dots.on {
           width: 33.33333%;
+}
+.trait {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 60rpx;
+  width: 92%;
+  margin: auto;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-top: 5rpx;
+}
+.trait .trait-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 25rpx;
+    line-height: 60rpx;
+    width: 33.3%;
+    margin-left: 20rpx;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+}
+.trait .trait-item image {
+      width: 40rpx;
+      height: 40rpx;
+      margin: 10rpx;
 }
 .category-list {
   width: 100%;
